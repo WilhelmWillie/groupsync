@@ -1,1 +1,1 @@
-export default () => <div>GroupSync</div>
+export default () => <div>GroupSync!</div>
