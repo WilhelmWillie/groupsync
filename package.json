@@ -1,0 +1,20 @@
+{
+  "name": "groupsync",
+  "version": "1.0.0",
+  "description": "Group brainstorming and decision making made easy",
+  "main": "index.js",
+  "scripts": {
+    "client:dev": "next client",
+    "client:build": "next build client",
+    "client:start": "next start client",
+    "server:start": "npx nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
