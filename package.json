@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Group brainstorming and decision making made easy",
   "scripts": {
-    "client:dev": "next client",
-    "client:build": "next build client",
-    "client:start": "next start client",
-    "server:start": "npx nodemon server/server.js",
-    "dev:start": "concurrently --kill-others \"npm run client:dev\" \"npm run server:start\""
+    "dev": "npx nodemon server/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "author": "Wilhelm Willie",
   "dependencies": {
