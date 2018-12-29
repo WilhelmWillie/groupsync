@@ -1,6 +1,6 @@
 module.exports = {
   SERVER_HOST: 'localhost',
-  SERVER_PORT: 3001,
+  SERVER_PORT: 3000,
   PROD: {
     MONGO_URL: ''
   },

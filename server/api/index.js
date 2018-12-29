@@ -7,4 +7,8 @@ router.get('/', (req, res) => {
   })
 })
 
+require('./group')(router)
+require('./idea')(router)
+require('./member')(router)
+
 module.exports = router
