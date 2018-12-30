@@ -9,13 +9,24 @@
   },
   "author": "Wilhelm Willie",
   "dependencies": {
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-wrap-in-js": "^1.1.1",
     "bluebird": "^3.5.3",
+    "bulma": "^0.7.2",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "mongoose": "^5.4.0",
     "next": "^7.0.2",
     "next-routes": "^1.4.2",
+    "node-sass": "^4.11.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^1.0.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "sass-loader": "^7.1.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.0"
