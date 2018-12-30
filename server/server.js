@@ -30,8 +30,7 @@ app.prepare().then(() => {
   server.use(bodyParser.urlencoded({ extended: false }))
 
   // Enable API routes
-  const api = require('./api')
-  server.use('/api', api)
+  require('./api')(server)
 
   server
   .use(handler)
