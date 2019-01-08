@@ -5,6 +5,6 @@ module.exports = {
     MONGO_URL: ''
   },
   DEV: {
-    MONGO_URL: 'localhost/groupsync'
+    MONGO_URL: 'mongodb://localhost/groupsync'
   }
 }

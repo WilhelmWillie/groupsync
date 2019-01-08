@@ -14,14 +14,12 @@ const handler = routes.getRequestHandler(app)
 app.prepare().then(() => {
   // Set up database
 
-  /*
   mongoose.Promise = bluebird
   if (process.env.NODE_ENV === 'production') {
     mongoose.connect(config.PROD.MONGO_URL)
   } else {
     mongoose.connect(config.DEV.MONGO_URL)
   }
-  */
 
   const server = express()
 
