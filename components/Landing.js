@@ -1,5 +1,7 @@
 import style from '../styles/styles.scss'
 
+import Link from 'next/link'
+
 const Landing = () => {
   return (
     <div>
@@ -10,11 +12,15 @@ const Landing = () => {
 
         <div className='field is-grouped' style={{justifyContent: 'center'}}>
           <p className='control'>
-            <a className='button is-primary'>Create</a>
+            <Link href='/create'>
+              <a className='button is-primary'>Create</a>
+            </Link>
           </p>
 
           <p className='control'>
-            <a className='button is-primary'>Join</a>
+            <Link href='/join'>
+              <a className='button is-primary'>Join</a>
+            </Link>
           </p>
         </div>
       </div>
